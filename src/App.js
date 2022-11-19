@@ -1,10 +1,14 @@
-import Restaurant from './components/Restaurant';
+// import Restaurant from './components/Restaurant';
+import Header from './components/layout/Header';
+import Footer from './components/layout/Footer';
 
 function App() {
   return (
-    <>
-      <Restaurant />
-    </>
+    <div>
+      {/* <Restaurant /> */}
+      <Header />
+      <Footer />
+    </div>
   );
 }
 
